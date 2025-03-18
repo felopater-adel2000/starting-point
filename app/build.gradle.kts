@@ -1,9 +1,11 @@
+import plugins.PluginsId
+
 plugins {
     id(PluginsId.ANDROID_APPLICATION)
     id(PluginsId.KOTLIN_ANDROID)
     id(PluginsId.KOTLIN_COMPOSE)
     id(PluginsId.KSP)
-    //id(PluginsId.KOTLIN_SERIALIZATION)
+    //id(plugins.PluginsId.KOTLIN_SERIALIZATION)
 }
 
 android {

@@ -1,3 +1,5 @@
+package plugins
+
 object PluginsId {
     /** Development Plugins **/
     const val ANDROID_APPLICATION = "com.android.application"
