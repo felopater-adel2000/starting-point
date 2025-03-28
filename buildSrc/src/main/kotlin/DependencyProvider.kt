@@ -2,6 +2,9 @@ import DependencyVersion.COMPOSE_NAVIGATION
 import org.gradle.api.artifacts.dsl.DependencyHandler
 import org.gradle.kotlin.dsl.DependencyHandlerScope
 import org.gradle.kotlin.dsl.exclude
+import extensions.implementation
+import extensions.ksp
+import extensions.implementPlatform
 
 object DependencyVersion {
     const val COMPOSE_NAVIGATION = "2.8.3"
