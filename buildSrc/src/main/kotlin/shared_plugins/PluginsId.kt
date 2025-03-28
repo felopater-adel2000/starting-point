@@ -1,4 +1,4 @@
-package plugins
+package shared_plugins
 
 object PluginsId {
     /** Development Plugins **/

@@ -1,4 +1,4 @@
-package plugins
+package shared_plugins
 
 import com.android.build.api.dsl.LibraryExtension
 import org.gradle.api.JavaVersion

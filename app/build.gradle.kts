@@ -1,10 +1,11 @@
-import plugins.PluginsId
+
+
 
 plugins {
-    id(PluginsId.ANDROID_APPLICATION)
-    id(PluginsId.KOTLIN_ANDROID)
-    id(PluginsId.KOTLIN_COMPOSE)
-    id(PluginsId.KSP)
+    id(shared_plugins.PluginsId.ANDROID_APPLICATION)
+    id(shared_plugins.PluginsId.KOTLIN_ANDROID)
+    id(shared_plugins.PluginsId.KOTLIN_COMPOSE)
+    id(shared_plugins.PluginsId.KSP)
     //id(plugins.PluginsId.KOTLIN_SERIALIZATION)
 }
 
